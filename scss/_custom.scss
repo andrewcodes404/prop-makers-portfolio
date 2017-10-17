@@ -1,0 +1,287 @@
+///////////////////////////////////
+///****   custom.scss   ****///
+///////////////////////////////////
+
+////////////////////////////////////
+//////****** front page ******//////
+////////////////////////////////////
+
+.edges{
+		///to get inline with the .splat cont
+	border-left: 0.1rem solid white;
+	border-right: 0.1rem solid white;
+}
+
+.front-page{
+	height : 100vh;
+	// margin: auto;
+	@include media-med{
+	width: 100%;
+	}
+
+	background-image: url("https://res.cloudinary.com/dcqi9fn2y/image/upload/c_scale,w_1500/v1508227501/beckybrown/other/merman-fp.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	.front-pg-nav{
+		position: absolute;
+		bottom: 0;
+		right: -1px;
+		@include media-sml{
+			top: 14vh;
+			right: -1px;
+		}
+
+		.nav-item{
+			// @include b1;
+			margin-bottom: .4rem;
+		}
+
+	span{
+			font-size: 2.5rem;
+			font-weight: lighter;
+			background-color: rgba(0,0,0, 0.7);
+			color: white;
+			padding: 0 0.75rem 0.4rem 0.75rem;
+			transition: .4s;
+			&:hover{
+				color: #41dcec;
+			}
+		}
+	}
+}
+
+.logo-front-page{
+
+	line-height: 1.3;
+	font-weight: lighter;
+	background-color: rgba(0,0,0,0.75);
+	color: white;
+	padding: 0 1rem 0.2rem;
+
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	font-size: 3rem;
+
+	@include media-sml{
+		left: 0;
+		top: 50vh;
+		font-size: 4rem;
+	}
+
+}
+
+/////////////////////////////
+//////****** NAV ******//////
+/////////////////////////////
+
+.nav-cont{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1rem 0;
+}
+
+.logo-page{
+	span{
+		line-height: 1;
+		padding: 0.2 0.5;
+		font-size: 3rem;
+		///to get inline with the .splat cont
+		border-left: 0.2rem solid white;
+
+		@include media-sml{
+			font-size: 2.5rem;
+		}
+
+		@include media-med{
+			font-size: 2.5rem;
+			///to get inline with the .splat cont
+			padding: 0 0.5rem 0.3rem 0.5rem;
+		}
+
+		background-color: rgba(0,0,0, 0.8);
+		color: white;
+///****** to get inline with the .splat cont
+		// margin-left: 0.1rem solid white;
+		// margin-bottom: 0.1rem solid white;
+	}
+	@include media-sml{
+		// margin: .5rem 0;
+	}
+}
+
+
+.nav-links{
+		///****** to get inline with the .splat cont
+		// border-left: 0.1rem solid white;
+		border-right: 0.2rem solid white;
+
+	p{
+		font-size: .8rem;
+		line-height: 2rem;
+		padding-left: .3rem;
+		padding-right: .3rem;
+		transition: .4s;
+		@include media-med{
+			font-size: .9rem;
+			line-height: 2.75rem;
+			padding-left: .5rem;
+			padding-right: .5rem;
+		}
+		margin-bottom: 0;
+		background-color: rgba(0,0,0, 0.8);
+		color: white;
+	// margin-right: 1rem;
+		&:hover {
+			color: #41dcec;
+			background-color: rgba(0,0,0, 0.6);
+
+			}
+	}
+
+	display: none;
+	@include media-sml{
+			display: flex;
+			// padding-left: .7rem;
+			// padding-bottom: 1rem;
+	}
+	@include media-lrg{
+		// padding-bottom: .5rem;
+		// padding-right: 3rem;
+	}
+}
+
+#nav-dec{
+	color: #ff06f5;
+}
+
+//a drop menu btn & menu
+////////////////////////////////
+.drop-btn{
+	font-size: 2rem;
+	padding-right: 1rem;
+
+	@include media-sml{
+	display: none;
+	}
+}
+
+.drop-menu{
+	margin-bottom: 1rem;
+	p{
+		font-size: 1.5rem;
+		background-color: $grey;
+		padding:.2rem 0 .2rem 1rem;
+		color: white;
+	}
+	@include media-sml{
+		display: none;
+	}
+}
+
+///////////////////////////////////
+
+.hide-me{
+	display: none;
+}
+h2{
+	color: $grey;
+}
+
+.prop-list, .sub-list{
+	p{
+	color: $grey;
+	}
+}
+
+.photo-col-item{
+	padding-bottom: 1rem;
+}
+
+.photo-col-modal{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+///////////////////////////////
+//////****** SPLAT ******//////
+///////////////////////////////
+
+.splat{
+	margin: auto ;
+	@include media-med{
+	width: 100%
+	}
+
+.splat-item{
+	position: relative;
+	&:hover{
+		cursor: pointer;
+	}
+}
+.splat-img{
+	padding: 0.1rem;
+}
+.splat-label{
+	@include abs-full;
+	background-color: rgba(207,207,207,.7);
+	.label-text{
+		color: black;
+		font-size: 2rem;
+		font-weight: 300;
+		transition: .3s;
+		&:hover{color: white;}}	}
+}
+
+footer{
+	height: 100px;
+	margin: 0 auto 100px;
+	border-bottom: 1px solid lightgrey;
+	@include media-med{
+	width: 85%;
+	}
+}
+
+///////////////////////////////
+//////****** the modal ******//////
+///////////////////////////////
+.project-box{
+	margin: 3rem 0;
+}
+.desc-box{
+	margin-bottom: 2rem;
+}
+.gallery-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+.photo-box{
+		width: 32%;
+		padding-right: 2%;
+	}
+
+}
+
+.test{
+	color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ha-fooled-you{}
