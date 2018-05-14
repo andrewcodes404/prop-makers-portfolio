@@ -6,6 +6,15 @@
 //////****** front page ******//////
 ////////////////////////////////////
 
+// body{background-color: pink;}
+
+.italics{
+	font-style: italic;
+}
+
+
+
+
 .edges{
 		///to get inline with the .splat cont
 	border-left: 0.1rem solid white;
@@ -272,7 +281,27 @@ footer{
 }
 
 
+////////////////////////////////////////
+//////****** the about page ******//////
+////////////////////////////////////////
 
+.contact-flex{
+		@include media-med{
+			display: flex;
+			justify-content: space-between;
+		};
+
+}
+
+.contact-text{
+	@include media-med{
+		margin-top: 2rem;
+		width: 40%;
+	};
+}
+.contact-img{
+	@include media-med{max-width: 55%};
+}
 
 
 

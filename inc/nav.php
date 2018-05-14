@@ -2,9 +2,9 @@
 <div class="nav-cont">
 
   <div class="logo-page">
-    <!-- <a href="/index.php"> -->
+    <a href="/">
       <span class="">Becky Brown</span>
-    <!-- </a> -->
+    </a>
   </div>
 
 

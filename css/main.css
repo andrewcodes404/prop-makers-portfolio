@@ -391,8 +391,9 @@ h5 {
   font-size: 1.25rem; }
 
 p {
-  font-size: 18px;
-  font-size: 1.125rem; }
+  font-size: 16px;
+  font-size: 1rem;
+  letter-spacing: .5px; }
 
 small {
   font-size: 14px;
@@ -403,12 +404,6 @@ strong {
 
 em {
   font-style: italic; }
-
-em::before {
-  content: '"'; }
-
-em::after {
-  content: '"'; }
 
 a, a:link, a:visited, a:active {
   text-decoration: none;
@@ -970,6 +965,9 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
+.italics {
+  font-style: italic; }
+
 .edges {
   border-left: 0.1rem solid white;
   border-right: 0.1rem solid white; }
@@ -1155,5 +1153,19 @@ footer {
 
 .test {
   color: aquamarine; }
+
+@media (min-width: 768px) {
+  .contact-flex {
+    display: flex;
+    justify-content: space-between; } }
+
+@media (min-width: 768px) {
+  .contact-text {
+    margin-top: 2rem;
+    width: 40%; } }
+
+@media (min-width: 768px) {
+  .contact-img {
+    max-width: 55%; } }
 
 /*# sourceMappingURL=main.css.map */

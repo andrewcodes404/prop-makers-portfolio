@@ -6,17 +6,52 @@
 
 $props = [];
 
+
+///1
+
 $props[] = [
   "title" => "Carved dragon",
   "desc" => "Polystyrene carved dragon's head which was made for a fire breathing dragon puppet with a hinged moving jaw.",
   "client" => "Sleeping Beauty Pantomime, The Queens Theatre Essex",
   "year" => "2009",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/carved-dragon1.jpg",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/carved-dragon2.jpg",
   "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/carved-dragon2.jpg"
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/carved-dragon1.jpg"
   ]
 ];
 
+///2
+
+$props[] = [
+  "title" => "Fashion Factory",
+  "desc" => " I made the giant zip using an mdf base and aluminium sheeting and designed the tongue
+    and cog face. The torso spins and a mannequin head hangs over the top, my first spinning prop!",
+  "client" => "Harvey Nichols Workshop",
+  "year" => "2013",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1526035731/beckybrown/3mechanical-props-hero.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1526035776/beckybrown/4mechanical-props.jpg"
+  ]
+];
+
+//3
+
+$props[] = [
+  "title" => "Merman Man",
+  "desc" => "After designing the merman and carving the tail I separated all the shells into graduated colour before attaching. The tail was silver leafed and painted and body dressed with shells and plastic fruit.",
+  "client" => "Jubilee Window Scheme, Harvey Nichols Workshop",
+  "year" => "2012",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/merman-mannequin4.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/merman-mannequin2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/merman-mannequin3.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/merman-mannequin1.jpg"
+  ]
+];
+
+
+
+///4
 
 $props[] = [
   "title" => "Carved tree",
@@ -28,29 +63,7 @@ $props[] = [
   ]
 ];
 
-$props[] = [
-  "title" => "Merman Man",
-  "desc" => "After designing the merman and carving the tail I separated all the shells into graduated colour before attaching. The tail was silver leafed and painted and body dressed with shells and plastic fruit.",
-  "client" => "Jubilee Window Scheme, Harvey Nichols Workshop",
-  "year" => "2012",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/merman-mannequin1.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/merman-mannequin2.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/merman-mannequin3.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/merman-mannequin4.jpg"
-  ]
-];
-
-$props[] = [
-  "title" => "Chrysanthemum",
-  "desc" => "Designed and made giant flower petals and decoration, using luminous rubber sheets, wire and glitter.",
-  "client" => "Christmas Windows, Harvey Nichols Workshop",
-  "year" => "Christmas Windows 2013, Harvey Nichols Workshop",
-  "hero" =>"https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/chrysanthemum1.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/chrysanthemum2.jpg"
-  ]
-];
+//5
 
 $props[] = [
   "title" => "Italian font",
@@ -64,47 +77,20 @@ $props[] = [
   ]
 ];
 
+//6
+
 $props[] = [
-  "title" => "Snowflake and ice",
-  "desc" => "The giant perspex snowflake was covered with coloured perspex shards attached with clear resin. I created a resin glitter effect with lights shining from behind. Ice made from hot wire carved polystyrene.",
-  "client" => "Christmas Windows 2012, Harvey Nichols Workshop",
-  "year" => "2012",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/snowflake-christmas1.jpg",
+  "title" => "Chrysanthemum",
+  "desc" => "Designed and made giant flower petals and decoration, using luminous rubber sheets, wire and glitter.",
+  "client" => "Christmas Windows, Harvey Nichols Workshop",
+  "year" => "Christmas Windows 2013, Harvey Nichols Workshop",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/chrysanthemum2.jpg",
   "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/snowflake-christmas.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/snowflake-christmas2.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/snowflake-christmas3.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/chrysanthemum1.jpg"
   ]
 ];
 
-
-$props[] = [
-  "title" => "Flower girl mannequin",
-  "desc" => "I was given an open brief to make a dress and accessories for the flower girl mannequin from bunches of plastic flowers.",
-  "client" => "Jubilee Windows, Harvey Nichols Workshop",
-  "year" => "2012",
-  "hero" =>"https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl1.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl2.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl3.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl4.jpg"
-  ]
-];
-
-$props[] = [
-  "title" => "Tree woman mannequin",
-  "desc" => "We made the tree woman after a brief of a nature theme. We used paper rope to create the bark, incorporated real branches and finished with paint effects.",
-  "client" => "Nature Window Scheme, Harvey Nichols Workshop",
-  "year" => "2011",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman1.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman2.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman3.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman4.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman5.jpg"
-  ]
-];
-
+//7
 
 $props[] = [
   "title" => "Peacocks",
@@ -118,6 +104,39 @@ $props[] = [
   ]
 ];
 
+//8
+
+$props[] = [
+  "title" => "Snowflake and ice",
+  "desc" => "The giant perspex snowflake was covered with coloured perspex shards attached with clear resin. I created a resin glitter effect with lights shining from behind. Ice made from hot wire carved polystyrene.",
+  "client" => "Christmas Windows 2012, Harvey Nichols Workshop",
+  "year" => "2012",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/snowflake-christmas1.jpg",
+  "img" => [
+    // "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/snowflake-christmas.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/snowflake-christmas2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/snowflake-christmas3.jpg",
+  ]
+];
+
+//9
+$props[] = [
+  "title" => "Tree woman mannequin",
+  "desc" => "We made the tree woman after a brief of a nature theme. We used paper rope to create the bark, incorporated real branches and finished with paint effects.",
+  "client" => "Nature Window Scheme, Harvey Nichols Workshop",
+  "year" => "2011",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman5.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman1.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman3.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman4.jpg",
+
+  ]
+];
+
+
+//10
 
 $props[] = [
   "title" => "Prehistoric shelter",
@@ -132,20 +151,23 @@ $props[] = [
   ]
 ];
 
+
+//11
+
+
 $props[] = [
   "title" => "Mechanical props",
   "desc" => "I worked with a small team to create two windows under the title fashion factory. I made the wooden cogs, paint and spray pots on wires, the giant zip and the rotating cog mannequin woman.",
   "client" => "Spring Fashion Factory, Harvey Nichols Workshop",
   "year" => "2013",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/mechanical-props3.jpg",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/mechanical-props1.jpg",
   "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/mechanical-props2.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/mechanical-props1.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/mechanical-props4.jpg"
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/mechanical-props3.jpg"
   ]
 ];
 
 
+//12
 $props[] = [
   "title" => "Giant pearl necklace",
   "desc" => "Made from polystyrene spheres, coated in pearlescent paint and varnish with metal clasp for Freemans catalogue fashion launch.",
@@ -156,6 +178,7 @@ $props[] = [
   ]
 ];
 
+//13
 $props[] = [
   "title" => "Wire Horse",
   "desc" => "The horse was carved out of polystyrene by a team of two and cut in half. It was covered with brightly coloured electrical wire and mounted on a base which i installed in the windows.",
@@ -167,20 +190,38 @@ $props[] = [
   ]
 ];
 
+//14
 $props[] = [
-  "title" => "Veg woman mannequin",
-  "desc" => "I designed the dress and accessories and which was made from plastic vegetables and fruit to sit in a greengrocer shop window.",
+  "title" => "Veg & flower mannequins",
+  "desc" => "I designed the dress and accessories and which was made from plastic vegetables, fruit and flowers to sit in a greengrocer shop window.",
   "client" => "Jubilee Window, Harvey Nichols Workshop",
   "year" => "2012",
   "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/veg-woman1.jpg",
   "img" => [
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/veg-woman2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl1.jpg",
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/veg-woman3.jpg",
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/veg-woman4.jpg",
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/veg-woman5.jpg"
   ]
 ];
 
+// $props[] = [
+//   "title" => "Flower girl mannequin",
+//   "desc" => "I was given an open brief to make a dress and accessories for the flower girl mannequin from bunches of plastic flowers.",
+//   "client" => "Jubilee Windows, Harvey Nichols Workshop",
+//   "year" => "2012",
+//   "hero" =>"https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl1.jpg",
+//   "img" => [
+//     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl2.jpg",
+//     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl3.jpg",
+//     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/flower-girl4.jpg"
+//   ]
+// ];
+
+
+
+//15
 $props[] = [
   "title" => "Giant shortbread",
   "desc" => "I was given a pack of shortbread and asked to make the best one. It is carved from polystyrene, with red resin for the jam and paint effects. Had to be durable as it was being held by children in the opera.",
@@ -192,6 +233,7 @@ $props[] = [
   ]
 ];
 
+//16
 
 $props[] = [
   "title" => "Tim Burton",
@@ -366,11 +408,13 @@ $scenic[] = [
   "desc" => "Designed by Mark Walters, myself and the head painter scaled up the model, used a series of washes and layers before defining with a black outline and shadows.",
   "client" => "The Queens Theatre",
   "year" => "2010",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/aladdin1.jpg",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/aladdin2.jpg",
   "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/aladdin2.jpg"
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/aladdin1.jpg"
+
   ]
 ];
+////// 👆/ 👆/ 👆/ 👆/ 👆/ 👆
 
 
 
@@ -379,10 +423,10 @@ $scenic[] = [
   "desc" => "Using images of derelict theatres we created the set using aging and distressing techniques. Such as a paint cracking technique using size over layed with paint and washes. I did my first wallpapering on this job.",
   "client" => "The Queens Theatre",
   "year" => "2010",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/camp-horror1.jpg",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/camp-horror3.jpg",
   "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/camp-horror1.jpg",
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/camp-horror2.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/camp-horror3.jpg",
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/scenic/camp-horror4.jpg"
   ]
 ];
@@ -405,33 +449,8 @@ $scenic[] = [
 
 $sculpture = [];
 
-$sculpture[] = [
-  "title" => "Clay tree",
-  "desc" => "Made in my studio using aluminum armature and clay.",
-  "client" => "",
-  "year" => "2013",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227429/beckybrown/sculpture/clay-tree1.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/clay-tree2.jpg"
-  ]
-];
 
-
-
-$sculpture[] = [
-  "title" => "Cactus wood carving",
-  "desc" => "Carved in limewood on a six day course using gouges and wooden mallets.",
-  "client" => "City Lit London College",
-  "year" => "2017",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/cactus-hero.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/cactus1.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/cactus2.jpg"
-  ]
-];
-
-
-
+//1
 $sculpture[] = [
   "title" => "Cartoon figurine sculptures",
   "desc" => "All sculptures made from sculpted clay cast into plaster of paris with a steel armature, then painted with enamel paint.",
@@ -446,6 +465,124 @@ $sculpture[] = [
 ];
 
 
+//2
+$sculpture[] = [
+  "title" => "Tree & passion flower",
+  "desc" => "Made in my studio using aluminum armature and clay.",
+  "client" => "",
+  "year" => "2013",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227429/beckybrown/sculpture/clay-tree1.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/clay-tree2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/passion-flower-hero.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/passion-flower1.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/passion-flower2.jpg"
+  ]
+];
+// merged with above 👆
+// $sculpture[] = [
+//   "title" => "Clay tree",
+//   "desc" => "Made in my studio using aluminum armature and clay.",
+//   "client" => "",
+//   "year" => "2013",
+//   "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227429/beckybrown/sculpture/clay-tree1.jpg",
+//   "img" => [
+//     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/clay-tree2.jpg"
+//   ]
+// ];
+
+//3
+
+$sculpture[] = [
+  "title" => "Crawling man",
+  "desc" => "Shoreditch Open studios exhibition, clay and polystyrene",
+  "client" => "",
+  "year" => "2006",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1526037351/beckybrown/sculpture/crawling_man.jpg",
+  "img" => [
+
+  ]
+];
+
+
+
+//4
+
+
+$sculpture[] = [
+  "title" => "Wood carved bear",
+  "desc" => "My first experience at wood carving using mahogany wood and using wood gouges and mallets.",
+  "client" => "City Lit London College",
+  "year" => "2015",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/bear-hero.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/bear1.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/bear2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/bear3.jpg"
+  ]
+];
+
+
+//5
+$sculpture[] = [
+  "title" => "Sculpting a head",
+  "desc" => "I sculpted a bust and full body from a life model, using wooden armature and clay.",
+  "client" => "City Lit London College",
+  "year" => "2012",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/sculpting-hero.jpg",
+  "img" => [
+    // "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/sculpting1.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/sculpting2.jpg"
+
+  ]
+];
+
+
+
+//6
+
+$sculpture[] = [
+  "title" => "Margaret",
+  "desc" => "Sculpted from clay and cast into plaster of paris with a steel armature.",
+  "client" => "Falmouth College of Art, fine art degree show",
+  "year" => "2002",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227431/beckybrown/sculpture/margaret-hero.jpg",
+  "img" => [
+      "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/margaret.jpg"
+  ]
+];
+
+//7
+$sculpture[] = [
+  "title" => "Cactus wood carving",
+  "desc" => "Carved in limewood on a six day course using gouges and wooden mallets.",
+  "client" => "City Lit London College",
+  "year" => "2017",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/cactus-hero2.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/cactus1.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/cactus2.jpg"
+  ]
+];
+
+
+
+//8
+
+$sculpture[] = [
+  "title" => "Sculpting from life ",
+  "desc" => "Sculpting in clay from a life model",
+  "client" => "City Lit London College",
+  "year" => "2012",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1526038174/beckybrown/sculpture/scultpinglife_hero.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1526038174/beckybrown/sculpture/scultpinglife_1.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1526038174/beckybrown/sculpture/scultpinglife_2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1526038174/beckybrown/sculpture/scultpinglife_3.jpg",
+  ]
+];
+
+//9
 $sculpture[] = [
   "title" => "Drawing the head",
   "desc" => "Charcoal drawing from ‘drawing the head’ life drawing class.",
@@ -457,67 +594,33 @@ $sculpture[] = [
   ]
 ];
 
-
-$sculpture[] = [
-  "title" => "James Bond",
-  "desc" => "Sculpted from clay and cast into plaster of paris with a steel armature.",
-  "client" => "Falmouth College of Art, fine art degree show",
-  "year" => "2002",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/jamesbond-hero.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/jamesbond2.jpg"
-  ]
-];
-
-
-$sculpture[] = [
-  "title" => "Margaret",
-  "desc" => "Sculpted from clay and cast into plaster of paris with a steel armature.",
-  "client" => "Falmouth College of Art, fine art degree show",
-  "year" => "2002",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/margaret.jpg",
-  "img" => [
-
-  ]
-];
+// James is gone for now
+// $sculpture[] = [
+//   "title" => "James Bond",
+//   "desc" => "Sculpted from clay and cast into plaster of paris with a steel armature.",
+//   "client" => "Falmouth College of Art, fine art degree show",
+//   "year" => "2002",
+//   "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/jamesbond-hero.jpg",
+//   "img" => [
+//     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/jamesbond2.jpg"
+//   ]
+// ];
 
 
-$sculpture[] = [
-  "title" => "Passion flower",
-  "desc" => "Made in my studio using aluminum armature and clay.",
-  "client" => "",
-  "year" => "2013",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/passion-flower-hero.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/passion-flower1.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/passion-flower2.jpg"
-
-  ]
-];
 
 
-$sculpture[] = [
-  "title" => "Sculpting from life",
-  "desc" => "I sculpted a bust and full body from a life model, using wooden armature and clay.",
-  "client" => "City Lit London College",
-  "year" => "2012",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/sculpting-hero.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/sculpting1.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/sculpting2.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/sculpting3.jpg"
-  ]
-];
 
 
-$sculpture[] = [
-  "title" => "Wood carved bear",
-  "desc" => "My first experience at wood carving using mahogany wood and using wood gouges and mallets.",
-  "client" => "City Lit London College",
-  "year" => "2015",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/bear-hero.jpg",
-  "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/bear1.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227404/beckybrown/sculpture/bear2.jpg"
-  ]
-];
+
+
+
+// $###[] = [
+//   "title" => "",
+//   "desc" => "",
+//   "client" => "",
+//   "year" => "",
+//   "hero" => "",
+//   "img" => [
+//     ""
+//   ]
+// ];

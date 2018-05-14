@@ -11,6 +11,8 @@ include("inc/nav.php");
   <?php
     foreach ($props as $key => $value) {
 
+
+// TODO: don't know why i made these variables when i could have just used $value["example"] stright in??🤔
       $title = $value["title"];
       $desc = $value["desc"];
       $client = $value["client"];
@@ -19,25 +21,25 @@ include("inc/nav.php");
       $img = $value["img"];
 
       echo '<a href="'
-      . $hero
+      . $value["hero"]
       . '" data-lightbox="'
-      . $title
+      . $value["title"]
       . '" data-title="<h1>'
-      . $title
+      . $value["title"]
       . ' <h1><h2> '
-      . $client
+      . $value["client"]
       . ' '
-      . $year
+      . $value["year"]
       . '</h2><p>'
-      . $desc
+      . $value["desc"]
       . '</p>">
         <div class="splat-item">
           <img class="splat-img" src=" '
-          . $hero
+          . $value["hero"]
           .'" alt="">
             <div class="splat-label flex-col justify-center text-center">
                   <p class="label-text">'
-                  . $title
+                  . $value["title"]
                   . '</p>
             </div>
         </div>

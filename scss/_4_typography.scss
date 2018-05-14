@@ -30,14 +30,19 @@ h2{@include fontSize($h2);}
 h3{@include fontSize($h3);}
 h4{@include fontSize($h4);}
 h5{@include fontSize($h5);}
-p {@include fontSize($p);}
+p {
+  @include fontSize($p);
+  letter-spacing: .5px;
+}
 small { @include fontSize($small);}
+
+
 
 ///*** for WP ***///
 strong{font-weight: 600;}
 em{ font-style: italic;}
-em::before{content: '"';}
-em::after{content: '"';}
+// em::before{content: '"';}
+// em::after{content: '"';}
 
 ///*** alinks ***///
 a, a:link, a:visited, a:active {
