@@ -40,6 +40,12 @@ include("inc/nav.php");
                   . $title
                   . '</p>
             </div>
+
+            <div class="splat-label-mobile"><span>'
+              . $value["title"]
+              .'  | <i class="fa fa-eye"></i></span>
+            </div>
+            
         </div>
       </a>';
 
