@@ -42,11 +42,11 @@
 
 
 
-  <a href="/about.php">
+  <a href="/cv.php">
     <p id="<?php
-    if (strtolower($pageTitle) == "about")  {
+    if (strtolower($pageTitle) == "cv")  {
       echo "nav-dec";
-    } ?>">about</p>
+    } ?>">cv</p>
   </a>
 </div>
 
@@ -65,7 +65,7 @@
     <p class="">sculpture</p>
   </a>
 
-  <a href="/about.php">
-    <p class="">about</p>
+  <a href="/cv.php">
+    <p class="">cv</p>
   </a>
 </div>

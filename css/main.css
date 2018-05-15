@@ -397,7 +397,12 @@ p {
 
 small {
   font-size: 14px;
-  font-size: 0.875rem; }
+  font-size: 0.875rem;
+  letter-spacing: .5px;
+  line-height: 1.2; }
+
+.cv-textbox {
+  margin-bottom: .75rem; }
 
 strong {
   font-weight: 600; }
@@ -1018,10 +1023,10 @@ body.lb-disable-scrolling {
     line-height: 2rem;
     padding-left: .3rem;
     padding-right: .3rem;
-    transition: .4s;
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white; }
+    color: white;
+    transition: .4s; }
     @media (min-width: 768px) {
       .nav-links p {
         font-size: .9rem;
@@ -1138,32 +1143,32 @@ h2 {
       color: white; }
 
 .splat-label-mobile {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   position: absolute;
   z-index: 1;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: .5rem;
-  text-align: right; }
-  .splat-label-mobile span {
-    font-size: 24px;
-    font-size: 1.5rem;
-    padding-right: .35rem;
-    letter-spacing: 1px;
-    font-weight: 100; }
-    @media (min-width: 576px) {
-      .splat-label-mobile span {
-        font-size: 18px;
-        font-size: 1.125rem; } }
-    @media (min-width: 768px) {
-      .splat-label-mobile span {
-        font-size: 16px;
-        font-size: 1rem; } }
-  @media (min-width: 992px) {
+  bottom: 0.1rem;
+  left: 0.1rem;
+  right: 0.1rem;
+  padding: .25rem .25rem .25rem .25rem;
+  text-align: right;
+  font-size: 24px;
+  font-size: 1.5rem;
+  padding-right: .35rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  transition: .3s; }
+  @media (min-width: 576px) {
     .splat-label-mobile {
-      display: none; } }
+      font-size: 18px;
+      font-size: 1.125rem; } }
+  @media (min-width: 768px) {
+    .splat-label-mobile {
+      font-size: 16px;
+      font-size: 1rem; } }
+  .splat-label-mobile:hover {
+    color: #41dcec;
+    background-color: rgba(0, 0, 0, 0.6); }
 
 footer {
   height: 100px;
@@ -1197,11 +1202,14 @@ footer {
 
 @media (min-width: 768px) {
   .contact-text {
-    margin-top: 2rem;
+    margin-top: .8rem;
     width: 40%; } }
 
-@media (min-width: 768px) {
-  .contact-img {
-    max-width: 55%; } }
+.contact-img {
+  filter: brightness(1.4) grayscale(4);
+  border-radius: 30px; }
+  @media (min-width: 768px) {
+    .contact-img {
+      max-width: 55%; } }
 
 /*# sourceMappingURL=main.css.map */

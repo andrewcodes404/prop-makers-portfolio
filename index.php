@@ -34,8 +34,8 @@ include("inc/header.php");
     </div>
 
     <div class="nav-item">
-      <a href="about.php">
-        <span>about</span>
+      <a href="cv.php">
+        <span>cv</span>
       </a>
     </div>
 

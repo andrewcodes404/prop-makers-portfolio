@@ -44,10 +44,10 @@ include("inc/nav.php");
                   . '</span>
             </div>
 
-            <div class="splat-label-mobile"><span>'
+            <p class="splat-label-mobile">'
               . $value["title"]
-              .'  | <i class="fa fa-eye"></i></span>
-            </div>
+              .'  | <i class="fa fa-eye"></i>
+            </p>
 
         </div>
       </a>';
