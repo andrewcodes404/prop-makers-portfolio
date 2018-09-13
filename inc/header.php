@@ -40,12 +40,14 @@
       <meta property="og:description" content="Freelance Prop-maker and Scenic Artist based in London with a background in Fine Art Sculpture from Falmouth College of Art" />
       <meta property="og:url" content="http://beckybrown.xyz" />
       <meta property="og:site_name" content="Becky Brown - Prop Maker &amp; Scenic Painting" />
+      <meta property="og:image" content="https://res.cloudinary.com/dcqi9fn2y/image/upload/v1506336602/beckybrown/website-screen-grab.png" />
 
 
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:description" content="Freelance Prop-maker and Scenic Artist based in London with a background in Fine Art Sculpture from Falmouth College of Art" />
       <meta name="twitter:title" content="Becky Brown - Prop Maker &amp; Scenic Painting" />
       <meta name="twitter:image" content="https://res.cloudinary.com/dcqi9fn2y/image/upload/v1506336602/beckybrown/website-screen-grab.png" />
+
 
 
       <!-- google verification -->

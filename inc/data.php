@@ -7,20 +7,28 @@
 $props = [];
 
 
-///1
+
+// -1
 
 $props[] = [
-  "title" => "Carved dragon",
-  "desc" => "Polystyrene carved dragon's head which was made for a fire breathing dragon puppet with a hinged moving jaw.",
-  "client" => "Sleeping Beauty Pantomime, The Queens Theatre Essex",
-  "year" => "2009",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/carved-dragon2.jpg",
+  "title" => "Niketown Lions",
+  "desc" => "Sculpting with Kim Harrison to create three full size lions from styrofoam which was coated in resin and sprayed white.",
+  "client" => "Niketown London world cup display, Simon Millington Associates",
+  "year" => "2018",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536823904/beckybrown/props/lion-hero.jpg",
   "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/carved-dragon1.jpg"
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536823903/beckybrown/props/lion1.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536823904/beckybrown/props/lion2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536823904/beckybrown/props/lion3.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536823904/beckybrown/props/lion4.jpg"
   ]
 ];
 
-///2
+
+
+
+
+///1
 
 $props[] = [
   "title" => "Fashion Factory",
@@ -33,6 +41,22 @@ $props[] = [
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1526035776/beckybrown/4mechanical-props.jpg"
   ]
 ];
+
+///2
+
+$props[] = [
+  "title" => "Carved dragon",
+  "desc" => "Polystyrene carved dragon's head which was made for a fire breathing dragon puppet with a hinged moving jaw.",
+  "client" => "Sleeping Beauty Pantomime, The Queens Theatre Essex",
+  "year" => "2009",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/carved-dragon2.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/carved-dragon1.jpg"
+  ]
+];
+
+
+
 
 //3
 
@@ -125,11 +149,11 @@ $props[] = [
   "desc" => "We made the tree woman after a brief of a nature theme. We used paper rope to create the bark, incorporated real branches and finished with paint effects.",
   "client" => "Nature Window Scheme, Harvey Nichols Workshop",
   "year" => "2011",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman5.jpg",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman3.jpg",
   "img" => [
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman1.jpg",
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman2.jpg",
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman3.jpg",
+    
     "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/tree-woman4.jpg",
 
   ]
@@ -227,9 +251,11 @@ $props[] = [
   "desc" => "I was given a pack of shortbread and asked to make the best one. It is carved from polystyrene, with red resin for the jam and paint effects. Had to be durable as it was being held by children in the opera.",
   "client" => "Hansel and Gretel, Holland Park Opera, Capital Scenery",
   "year" => "2008",
-  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/giant-shortbread1.jpg",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/giant-shortbread2.jpg",
+  
+  
   "img" => [
-    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/giant-shortbread2.jpg"
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1508227356/beckybrown/props/giant-shortbread1.jpg"
   ]
 ];
 
@@ -253,6 +279,24 @@ $props[] = [
 /////////////////////////////////////
 
 $scenic = [];
+
+$scenic[] = [
+  "title" => "Byredo desert windows",
+  "desc" => "Running a team of people to create desert effect textured walls and floors and painted a prop pump and sign to look rusty and distressed.",
+  "client" => "Byredo windows at Selfridges, Simon Millington",
+  "year" => "2018",
+  "hero" => "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536824221/beckybrown/scenic/byredo-hero.jpg",
+  "img" => [
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536824221/beckybrown/scenic/byredo1.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536824222/beckybrown/scenic/byredo2.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536824222/beckybrown/scenic/byredo3.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536824222/beckybrown/scenic/byredo4.jpg",
+    "https://res.cloudinary.com/dcqi9fn2y/image/upload/v1536824222/beckybrown/scenic/byredo5.jpg"
+  ]
+];
+
+
+
 
 $scenic[] = [
   "title" => "Scouse Pacific",

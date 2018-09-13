@@ -37,6 +37,10 @@ include("inc/nav.php");
 <!-- /////jobs list here -->
   <h3 class="mv1 bold">Prop making, scenic painting and set dressing</h3>
   <div class="">
+    <div class="cv-textbox">
+        <small><strong>Secret Cinema ‘Romeo and Juliet’</strong> - <em>Art Dept / Scenic Painter </em> - Art Dir: Mika Handley</small><br>
+      </div>
+
       <div class="cv-textbox">
         <small><strong>All Scene All Prop</strong> - <em>Scenic Painter</em> - The York Realist (Donmar Warehouse), Tina: The Musical (Aldwych Theatre)</small><br>
       </div>
